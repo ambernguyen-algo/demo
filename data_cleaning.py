@@ -12,7 +12,7 @@ df['Rating'].fillna(-1, inplace = True)
 
 print(df['Size'].value_counts())
 
-
+#test de,p
 def set_size(size):
    if size[-1] == 'M':
       return float(size[:-1])
